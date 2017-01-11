@@ -1,0 +1,20 @@
+{
+  "name": "time-checker",
+  "version": "0.1.1",
+  "description": "Checks current time in a specified period",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "keywords": [],
+  "author": "Dimitry Ivanov <2@ivanoff.org.ua> # curl -A cv ivanoff.org.ua",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.13.0",
+    "moment-timezone": "^0.5.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "should": "^9.0.0"
+  }
+}
