@@ -14,7 +14,7 @@
  */
 'use strict';
 
-var moment = require('moment');
+var moment = require('moment-timezone');
 
 /**
  * Create a time-checker application
@@ -44,7 +44,8 @@ function checkTimeByConditions(conditions, timestamp) {
 
   var resultTime = [];
   var resultWeek = true;
-  var current = moment(timestamp);
+
+  var current = this.options.timeZone? moment(timestamp).tz(this.options.timeZone) : moment(timestamp);
 
   conditions = Array.isArray(conditions)? conditions : [conditions];
   var conditionsLength = conditions.length;

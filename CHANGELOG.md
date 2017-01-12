@@ -7,6 +7,7 @@
 
 - add options parameters
 - add usage example
+- add timezone into options
 
 
 ## [0.0.1](https://github.com/ivanoff/time-checker/tree/0.0.1) (2017-01-11)
