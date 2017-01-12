@@ -59,8 +59,8 @@ function checkTimeByConditions(conditions, timestamp) {
       resultTime.push(current.unix() >= timeFrom.unix() && current.unix() <= timeTo.unix());
     }
 
-    var d = this.options.daysOff || [];
-    var h = this.options.holidays || [];
+    var d = this.options.daysOff;
+    var h = this.options.holidays;
     if(e === 'workdays')
       resultWeek = d.indexOf(current.day()) < 0 && h.indexOf(current.format('D.MM')) < 0;
     if(e === 'restdays')
