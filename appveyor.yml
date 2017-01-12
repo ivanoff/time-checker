@@ -22,7 +22,7 @@ install:
   - IF %nodejs_version% NEQ 0.8 set PATH=%APPDATA%\npm;%PATH%
   # Typical npm stuff.
   - npm install
-  - npm run rebuild-tests
+#  - npm run rebuild-tests
 
 # Post-install test scripts.
 test_script:
@@ -30,7 +30,8 @@ test_script:
   - node --version
   - npm --version
   # run tests
-  - IF %nodejs_version% LSS 1 (npm test) ELSE (IF %nodejs_version% LSS 4 (iojs node_modules\tap\bin\tap.js --gc test/js/*-test.js) ELSE (node node_modules\tap\bin\tap.js --gc test/js/*-test.js))
+  - npm test
+#  - IF %nodejs_version% LSS 1 (npm test) ELSE (IF %nodejs_version% LSS 4 (iojs node_modules\tap\bin\tap.js --gc test/js/*-test.js) ELSE (node node_modules\tap\bin\tap.js --gc test/js/*-test.js))
 
 # Don't actually build.
 build: off
