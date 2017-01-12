@@ -1,7 +1,10 @@
 
-[![Build Status: Linux](https://travis-ci.org/ivanoff/time-checker?branch=master)](https://travis-ci.org/ivanoff/time-checker)
+[![NPM version][npm-version-image]][npm-url]
+[![NPM downloads][npm-downloads-image]][npm-url]
+[![MIT License][license-image]][license-url]
+[![Build Status: Linux][travis-image]][travis-url]
 [![Build Status: Windows](https://ci.appveyor.com/api/projects/status/lp3nhnam1eyyqh33/branch/master?svg=true)](https://ci.appveyor.com/project/ivanoff/time-checker/branch/master)
-
+[![Coverage Status](https://coveralls.io/repos/ivanoff/time-checker/badge.svg?branch=develop)](https://coveralls.io/r/ivanoff/time-checker?branch=develop)
 
 # Time checker
 
@@ -71,3 +74,13 @@ checkTime.byConditions(['9:00-17:00', 'restdays'], 1465200806000); // false
 ## Created by
 
   Dimitry Ivanov <2@ivanoff.org.ua> # curl -A cv ivanoff.org.ua
+
+[license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
+[license-url]: LICENSE
+
+[npm-url]: https://npmjs.org/package/time-checker
+[npm-version-image]: http://img.shields.io/npm/v/moment.svg?style=flat
+[npm-downloads-image]: http://img.shields.io/npm/dm/moment.svg?style=flat
+
+[travis-url]: http://travis-ci.org/ivanoff/time-checker
+[travis-image]: http://img.shields.io/travis/ivanoff/time-checker/develop.svg?style=flat

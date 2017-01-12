@@ -8,12 +8,14 @@
   },
   "keywords": [],
   "author": "Dimitry Ivanov <2@ivanoff.org.ua> # curl -A cv ivanoff.org.ua",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "moment": "^2.13.0",
     "moment-timezone": "^0.5.4"
   },
   "devDependencies": {
+    "coveralls": "^2.11.15",
+    "istanbul": "^0.4.5",
     "mocha": "^2.5.3",
     "should": "^9.0.0"
   }
