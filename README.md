@@ -9,7 +9,7 @@
 
 # Time checker
 
-  v.0.1.1
+  v.0.1.2
 
   Checks current time in a specified period
 
