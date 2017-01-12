@@ -26,18 +26,18 @@ checkTime.byConditions(['18:00-23:59', '00:00-10:00', 'workdays']);
 
 
 ## Option parameters
-  - **daysOff** - list of days off. Array of numbers (0 - Sun, 1 - Mon, ..., 6 - Sat)
-  - **holidays** - list of holiday dates. Array of string ('14.10' means 14'th of October of each year)
-  - **timeZone** - zone name used in value of TZ environment variable
+  - **daysOff** - list of days off. Array of numbers (`0` - Sun, `1` - Mon, ..., `6` - Sat)
+  - **holidays** - list of holiday dates. Array of string (`'14.10'` means 14'th of October of each year)
+  - **timeZone** - zone name used in value of TZ environment variable (ex. `America/Chicago`)
 
 
 ## Check time by conditions
   `checkTime.byConditions(<conditions>, [<current timestamp>])`
 
   - **conditions** - string or array of the strings with time conditions:
-    - time interval (ex. '9:00-21:00')
-    - type of the day ('workdays' or 'restdays')
-  - **current timestamp** - Unix Timestamp in milliseconds, not required. If not set, then uses current timestamp.
+    - time interval (ex. `'9:00-21:00'`)
+    - type of the day (`'workdays'` or `'restdays'`)
+  - **current timestamp** - Unix Timestamp in milliseconds (ex. `1465200806000`), not required. If not set, then uses current timestamp.
 
 
 ## More Examples
