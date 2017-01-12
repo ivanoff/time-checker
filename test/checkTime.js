@@ -9,8 +9,18 @@ var options = {
 
 describe('checkTime', function() {
 
+  describe('no conditions', function() {
+    var checkTime = new CheckTime();
+    it('then true', function() {
+      checkTime.byConditions().should.equal(true);
+    });
+  });
+
   describe('1465200806000 => Mon Jun 06 11:13:26 2016', function() {
-    var checkTime = new CheckTime(options);
+    var checkTime = new CheckTime();
+    it('9:00-17:00 string', function() {
+      checkTime.byConditions('9:00-17:00', 1465200806000).should.equal(true);
+    });
     it('9:00-17:00', function() {
       checkTime.byConditions(['9:00-17:00'], 1465200806000).should.equal(true);
     });
