@@ -1,4 +1,5 @@
 
+[![Build Status: Linux](https://travis-ci.org/ivanoff/time-checker?branch=master)](https://travis-ci.org/ivanoff/time-checker)
 [![Build Status: Windows](https://ci.appveyor.com/api/projects/status/lp3nhnam1eyyqh33/branch/master?svg=true)](https://ci.appveyor.com/project/ivanoff/time-checker/branch/master)
 
 
