@@ -1,4 +1,5 @@
-[https://ci.appveyor.com/api/projects/status/lp3nhnam1eyyqh33?svg=true](https://ci.appveyor.com/api/projects/status/lp3nhnam1eyyqh33?svg=true)
+
+[![Build Status: Windows](https://ci.appveyor.com/api/projects/status/lp3nhnam1eyyqh33/branch/master?svg=true)](https://ci.appveyor.com/project/ivanoff/time-checker/branch/master)
 
 
 # Time checker
