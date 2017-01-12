@@ -1,3 +1,6 @@
+[https://ci.appveyor.com/api/projects/status/lp3nhnam1eyyqh33?svg=true](https://ci.appveyor.com/api/projects/status/lp3nhnam1eyyqh33?svg=true)
+
+
 # Time checker
 
   v.0.1.1
